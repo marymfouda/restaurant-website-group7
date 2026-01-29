@@ -64,24 +64,6 @@ Don't panic! If Git tells you there is a conflict during a merge:
 Here is a new section you can add to your **README.md** that explains what a conflict is and how to fix it:
 
 ---
-
-markdown
-## ⚠️ Handling Merge Conflicts
-
-### What is a Merge Conflict?
-A conflict happens when two people edit the **same line** in the **same file**, or when one person deletes a file that another person is modifying. Git gets confused and asks you: *"Which version should I keep?"*
-
-### How to Fix It (The Easy Way)
-Don't panic! If Git tells you there is a conflict during a merge:
-
-1. **Locate the Conflict:** Open the file mentioned by Git. You will see these markers:
-   ```text
-   <<<<<<< HEAD
-   Your changes (the ones currently on the main branch)
-   =======
-   Their changes (the ones you are trying to pull/merge)
-   >>>>>>> branch-name ```
-
 2. **Choose the Winner:** Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the code you actually want. You can keep one side, the other, or combine both!
 3. **Finalize the Fix:**
 * Save the file.
