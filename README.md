@@ -80,9 +80,7 @@ Don't panic! If Git tells you there is a conflict during a merge:
    Your changes (the ones currently on the main branch)
    =======
    Their changes (the ones you are trying to pull/merge)
-   >>>>>>> branch-name
-
-```
+   >>>>>>> branch-name ```
 
 2. **Choose the Winner:** Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the code you actually want. You can keep one side, the other, or combine both!
 3. **Finalize the Fix:**
