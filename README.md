@@ -1,5 +1,14 @@
-# restaurant-website-group7
-# Git & GitHub 
+# 📌 restaurant-website-group7
+##  Our Team
+
+| Name | Role | GitHub Profile |
+| :--- | :--- | :--- |
+| **Marym Fouda 1** | Project Lead | [@marymfouda](https://github.com/marymfouda) |
+| **Mahmoud Ammar 2** | Developer-1 | [@mahmoud-3mmar]|
+| **Mahmoud kamal 3** | Developer-2 | [@Mahmoud-Kama1] |
+
+---
+# 📌 Git & GitHub 
 
 Welcome! If you are looking to master the art of version control and collaboration, you are in the right place. This is a simple, hands-on project designed to help beginners practice the core Git workflow.
 
@@ -24,15 +33,28 @@ A PR is a way to notify others that you've completed a feature or fixed a bug. I
 Merging is the process of taking the history and changes from one branch and joining them into another (usually the `main` branch).
 
 ---
-
-## How to Contribute (Step-by-Step)
-
-Ready to see your name on the contributors list? Follow these steps:
-
-### Step 1: Fork the Project
-Click the **Fork** button at the top-right of this page to create your own copy of this repository.
-
-### Step 2: Clone the Repo
-Copy the URL of your forked repo and run this in your terminal:
-```bash
+``bash
 git clone [https://github.com/YOUR_USERNAME/learning-git-task.git](https://github.com/YOUR_USERNAME/learning-git-task.git)
+
+Never work directly on the main branch. Create a new one for your changes:
+``bash
+git checkout -b add-my-profile
+
+---
+## ⚠️ Handling Merge Conflicts
+
+### What is a Merge Conflict?
+A conflict happens when two people edit the **same line** in the **same file**, or when one person deletes a file that another person is modifying. Git gets confused and asks you: *"Which version should I keep?"*
+
+### How to Fix It (The Easy Way)
+Don't panic! If Git tells you there is a conflict during a merge:
+
+1. **Locate the Conflict:** Open the file mentioned by Git. You will see these markers:
+   ```text
+   <<<<<<< HEAD
+   Your changes (the ones currently on the main branch)
+   =======
+   Their changes (the ones you are trying to pull/merge)
+   >>>>>>> branch-name
+   ```
+   Should remove unkown character 
