@@ -1,18 +1,18 @@
-# 📌 restaurant-website-group7
+# restaurant-website-group7
 ##  Our Team
 
 | Name | Role | GitHub Profile |
 | :--- | :--- | :--- |
-| **Marym Fouda 1** | Project Lead | [@marymfouda](https://github.com/marymfouda) |
-| **Mahmoud Ammar 2** | Developer-1 | [@mahmoud-3mmar]|
-| **Mahmoud kamal 3** | Developer-2 | [@Mahmoud-Kama1] |
+| **Marym Fouda** | Owner| [@marymfouda](https://github.com/marymfouda) |
+| **Mahmoud Ammar** | Developer-1 | [@mahmoud-3mmar](https://github.com/mahmoud-3mmar)|
+| **Mahmoud kamal** | Developer-2 | [@Mahmoud-Kama1](https://github.com/Mahmoud-Kama1) |
 
 ---
 # 📌 Git & GitHub 
 
 Welcome! If you are looking to master the art of version control and collaboration, you are in the right place. This is a simple, hands-on project designed to help beginners practice the core Git workflow.
 
-## Project Goals
+##💡 Project Goals
 The main objective is to understand how developers work together using:
 * **Branching:** Working on features without breaking the main code.
 * **Pull Requests (PR):** Suggesting changes for review.
