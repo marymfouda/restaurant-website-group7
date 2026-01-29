@@ -58,10 +58,10 @@ Don't panic! If Git tells you there is a conflict during a merge:
    Their changes (the ones you are trying to pull/merge)
    >>>>>>> branch-name
    ```
-#To fix it :
+### To fix it :
 
-2. **Choose the Winner:** Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the code you actually want. You can keep one side, the other, or combine both!
-3. **Finalize the Fix:**
+3. **Choose the Winner:** Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the code you actually want. You can keep one side, the other, or combine both!
+4. **Finalize the Fix:**
 * Save the file.
 * Stage the fix: `git add <file-name>`
 * Complete the merge: `git commit -m "Fix merge conflict"`
