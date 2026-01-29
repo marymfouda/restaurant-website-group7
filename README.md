@@ -33,14 +33,14 @@ A PR is a way to notify others that you've completed a feature or fixed a bug. I
 Merging is the process of taking the history and changes from one branch and joining them into another (usually the `main` branch).
 
 ---
-``bash
+```bash
 git clone [https://github.com/YOUR_USERNAME/learning-git-task.git](https://github.com/YOUR_USERNAME/learning-git-task.git)
-``
+```
 ---
 Never work directly on the main branch. Create a new one for your changes:
-``bash
+```bash
 git checkout -b add-my-profile
-``
+```
 ---
 ## ⚠️ Handling Merge Conflicts
 
@@ -65,7 +65,7 @@ Here is a new section you can add to your **README.md** that explains what a con
 
 ---
 
-```markdown
+markdown
 ## ⚠️ Handling Merge Conflicts
 
 ### What is a Merge Conflict?
