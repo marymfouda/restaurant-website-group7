@@ -41,7 +41,7 @@ Never work directly on the main branch. Create a new one for your changes:
 ```bash
 git checkout -b add-my-profile
 ```
----
+
 ## ⚠️ Handling Merge Conflicts
 
 ### What is a Merge Conflict?
@@ -58,12 +58,8 @@ Don't panic! If Git tells you there is a conflict during a merge:
    Their changes (the ones you are trying to pull/merge)
    >>>>>>> branch-name
    ```
-   Should remove unkown character
-   That is a great addition! Dealing with a **Merge Conflict** is usually the scariest part for beginners, but explaining it simply makes it much less intimidating.
+#To fix it :
 
-Here is a new section you can add to your **README.md** that explains what a conflict is and how to fix it:
-
----
 2. **Choose the Winner:** Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the code you actually want. You can keep one side, the other, or combine both!
 3. **Finalize the Fix:**
 * Save the file.
